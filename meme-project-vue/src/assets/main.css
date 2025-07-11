@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Audiowide', sans-serif; /* Terapkan font Audiowide */
+  background-color: #1F1D2B; /* Background: Deep purple-gray */
+  color: #EAEAEA; /* Text Primary: Light gray */
+  line-height: 1.6;
+}
+.Vue-Toastification__container .Vue-Toastification__toast {
+  background-color: #252734;
+  color: #EAEAEA;
+  border: 1px solid #4D4D4D;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  font-family: 'Audiowide', sans-serif;
+}
+
+.Vue-Toastification__container .Vue-Toastification__progress-bar {
+  background: linear-gradient(to right, #FF71CE, #01CDFE);
+}
+
+.Vue-Toastification__container .Vue-Toastification__close-button {
+  color: #EAEAEA;
+  opacity: 0.7;
+}
+
+.Vue-Toastification__container .Vue-Toastification__toast--success .Vue-Toastification__icon,
+.Vue-Toastification__container .Vue-Toastification__toast--error .Vue-Toastification__icon {
+  width: 0;
+}
+
+.Vue-Toastification__container .Vue-Toastification__toast--success {
+  border-left: 5px solid #05FFA1; /* Green */
+}
+.Vue-Toastification__container .Vue-Toastification__toast--error {
+  border-left: 5px solid #FF4C29; /* Orange/Red */
+}
+.Vue-Toastification__container .Vue-Toastification__toast--info {
+  border-left: 5px solid #01CDFE; /* Blue */
+}
