@@ -5,7 +5,9 @@
   <img src="https://img.shields.io/badge/Pinia-FFB300?style=for-the-badge&logo=pinia&logoColor=white" alt="Pinia">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </div>
-# 🚀 4Fun - Forum Meme "Retro Vaporwave"
+
+
+🚀 4Fun - Forum Meme "Retro Vaporwave"
 
 Selamat datang di 4Fun! Ini adalah aplikasi web full-stack yang dibangun dari nol untuk menciptakan sebuah platform komunitas berbagi meme yang modern, interaktif, dan penuh gaya.
 
