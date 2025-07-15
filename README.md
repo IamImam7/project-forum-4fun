@@ -9,8 +9,6 @@
 
 🚀 4Fun - Forum Meme "Retro Vaporwave"
 
-Selamat datang di 4Fun! Ini adalah aplikasi web full-stack yang dibangun dari nol untuk menciptakan sebuah platform komunitas berbagi meme yang modern, interaktif, dan penuh gaya.
-
 Proyek ini menggunakan arsitektur *decoupled*, dengan **Laravel** sebagai API backend yang tangguh dan **Vue.js 3** sebagai Single Page Application (SPA) yang dinamis di frontend.
 <img width="1920" height="2391" alt="Image" src="https://github.com/user-attachments/assets/3039dc97-0720-40c1-a79a-8080dc261a58" />
 
@@ -24,7 +22,7 @@ Aplikasi ini dilengkapi dengan berbagai fitur untuk menciptakan pengalaman pengg
 * **Halaman Profil Pribadi**: Pengguna dapat melihat semua postingan yang pernah mereka buat di halaman "Postingan Saya".
 * **Edit Profil**: Kemampuan bagi pengguna untuk mengubah nama, email, dan kata sandi mereka.
 * **Profil Publik**: Setiap nama pengguna di aplikasi bisa diklik untuk melihat galeri postingan dari pengguna tersebut.
-* **Menu Dropdown Profil**: Navbar yang menampilkan nama pengguna dan menu dropdown untuk akses cepat ke edit profil dan logout.
+
 
 #### 🖼️ **Postingan & Interaksi**
 * **Upload Meme**: Form upload modern dengan preview gambar, opsi multi-kategori, dan tombol hapus pilihan gambar.
@@ -72,7 +70,7 @@ Aplikasi ini dilengkapi dengan berbagai fitur untuk menciptakan pengalaman pengg
 Ingin menjalankan proyek ini di komputer Anda? Ikuti langkah-langkah berikut:
 
 ### **Backend (Direktori Laravel)**
-1.  Masuk ke direktori backend: `cd nama-folder-backend`
+1.  Masuk ke direktori backend: `cd meme-api-laravel`
 2.  Install dependensi:
     ```bash
     composer install
@@ -97,7 +95,7 @@ Ingin menjalankan proyek ini di komputer Anda? Ikuti langkah-langkah berikut:
     ```
 
 ### **Frontend (Direktori Vue)**
-1.  Masuk ke direktori frontend: `cd nama-folder-frontend`
+1.  Masuk ke direktori frontend: `cd meme-project-vue`
 2.  Install dependensi:
     ```bash
     npm install
